@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Guests</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_all_guests">Todos os convidados</string>
+    <string name="menu_present">Convidados presentes</string>
+    <string name="menu_absent">Convidados ausentes</string>
+
+    <string name="text_record">Registro de Convidados</string>
+    <string name="text_name">Nome:</string>
+    <string name="text_present">Presença:</string>
+    <string name="radio_present">Presente</string>
+    <string name="radio_absent">Ausente</string>
+    <string name="button_save">Salvar</string>
+
+    <string name="text_recycle">Convidado</string>
+
+</resources>
