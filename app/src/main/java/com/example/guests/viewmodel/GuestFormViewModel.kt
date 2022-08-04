@@ -1,6 +1,7 @@
 package com.example.guests.viewmodel
 
 import android.app.Application
+import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -32,6 +33,8 @@ class GuestFormViewModel(application: Application) : AndroidViewModel(applicatio
                     _saveGuest.value = "Falha"
                 }
             }
+        } else {
+            Toast.makeText(getApplication(), "Digite um nome", Toast.LENGTH_SHORT).show()
         }
     }
 
